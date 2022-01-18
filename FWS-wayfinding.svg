@@ -9,12 +9,13 @@
 
 			.step {
 			  transform: translateX(0px);
-			  transition: .25s ease-in transform;
+				filter: drop-shadow(5px 5px 10px rgb(0 0 0 / 0.1));
+			  transition: .3s ease-in transform;
 			}
 
 			.step:hover {
-			  box-shadow: 0 10px 20px 0px rgba(58, 58, 58, 0.75);
 			  transform: translateX(4px);
+				<!-- filter: brightness(0.93); -->
 			}
 
 			.dark-blue {
@@ -32,21 +33,6 @@
 
 			.gold {
 			fill:#F2A83D;
-			transition: all 0.5s ease;
-			}
-
-			.dark-blue:hover {
-				fill: #0E253E;
-				transition: all 0.5s ease;
-			}
-
-			.light-blue:hover {
-			fill: #2F6FA9;
-			transition: all 0.5s ease;
-			}
-
-			.gold:hover {
-			fill: #C98B31;
 			transition: all 0.5s ease;
 			}
 
